@@ -16,18 +16,7 @@ const USER_CONFIG = {
   PROVINCE: '陕西',
   CITY: '西安',
 
-  USERS: [
-    {
-      // 想要发送的人的名字
-      name: '宝贝',
-      // 使用 微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
-      // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '',
-      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '12-27',
-      festivals: [
-   
+  USERS: [  
     {
       name: '亲爱的朋友',
       id: 'osZhI65MpjXke1V9lkHfgjpNmmjE',
@@ -43,11 +32,11 @@ const USER_CONFIG = {
     },
     
   {
-     name: '亲爱的朋友',
+     name: '偷懒的小蜜蜂',
     
-     id: 'osZhI65MpjXke1V9lkHfgjpNmmjE,
+     id: 'osZhI67GIj0AsmiruHSP_-MTjJO',
       useTemplateId: 'K8FvnxRDqTlFZtOhQzhioaaiVIAKaXdmrfT_Yp6VVCE',
-      province: '陕西',   
+      province: '河北',   
       city: '西安'
 horoscopeDate: '8-19',
    horoscopeDateType: '今日',
