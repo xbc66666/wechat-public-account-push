@@ -13,8 +13,8 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '',
 
-  PROVINCE: '广东',
-  CITY: '惠州',
+  PROVINCE: '陕西',
+  CITY: '西安',
 
   USERS: [
     {
@@ -46,6 +46,39 @@ const USER_CONFIG = {
         // 结婚纪念日
         { keyword: 'marry_day', date: '2022-09-09' },
       ],
+    },
+    
+    {
+      name: '亲爱的朋友',
+      id: 'osZhI65MpjXke1V9lkHfgjpNmmjE',
+      useTemplateId: 'K8FvnxRDqTlFZtOhQzhioaaiVIAKaXdmrfT_Yp6VVCE',
+      province: '陕西',
+      city: '西安',
+      horoscopeDate: '8-19',
+      horoscopeDateType: '今日',
+      openUrl: 'https://wangxinleo.cn',
+      festivals: [],
+      customizedDateList: [  {"type": "*生日", "name": "自己", "year": "1992", "date": "7-20"},],
+      courseSchedule: null
+    },
+    
+  {
+     name: '亲爱的朋友',
+    
+     id: 'osZhI65MpjXke1V9lkHfgjpNmmjE,
+      useTemplateId: 'K8FvnxRDqTlFZtOhQzhioaaiVIAKaXdmrfT_Yp6VVCE',
+      province: '陕西',   
+      city: '西安'
+horoscopeDate: '8-19',
+   horoscopeDateType: '今日',
+     openUrl: 'https://wangxinleo.cn',
+
+      festivals: [],
+
+      customizedDateList: [  {"type": "*生日", "name": "自己", "year": "1992", "date": "7-20"},],
+
+      courseSchedule: null
+
     },
   ],
 
