@@ -61,7 +61,7 @@ const USER_CONFIG = {
   {
      name: '偷懒的小蜜蜂',
     
-     id: 'osZhI67GIj0AsmiruHSP_-MTjJO',
+     id: 'osZhI67GIj0AsmiruHSP_-MTjJOk',
       useTemplateId: 'K8FvnxRDqTlFZtOhQzhioaaiVIAKaXdmrfT_Yp6VVCE',
       province: '河北',   
       city: '西安',
@@ -81,7 +81,7 @@ const USER_CONFIG = {
 
      name: '偷懒的小蜜蜂',
    
-     id: 'osZhI67GIj0AsmiruHSP_-MTjJO',
+     id: 'osZhI67GIj0AsmiruHSP_-MTjJOk',
 
       useTemplateId: '3CnTPTwCffGfBC8nJw0C4TSGLtTuwVyhaj9Z1eMvruI',
 
