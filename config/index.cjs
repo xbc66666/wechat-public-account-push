@@ -25,7 +25,7 @@ const USER_CONFIG = {
       city: '西安',
       horoscopeDate: '8-19',
       horoscopeDateType: '今日',
-      openUrl: 'https://wangxinleo.cn',
+      openUrl: 'https://mp.weixin.qq.com/s?__biz=MzkwMjQwMzY0Mg==&mid=2247483682&idx=1&sn=002e49362ea8432224dd567248eb3045&chksm=c0a74277f7d0cb6192b354626eb1b374c443e112d50cf269ad437c675611e2ef3ea5e107dcd6&token=1205761133&lang=zh_CN#rd',
       festivals: [],
       customizedDateList: [  {"type": "*生日", "name": "自己", "year": "1992", "date": "7-20"},],
       courseSchedule: null
@@ -37,12 +37,12 @@ const USER_CONFIG = {
      id: 'osZhI67GIj0AsmiruHSP_-MTjJO',
       useTemplateId: 'K8FvnxRDqTlFZtOhQzhioaaiVIAKaXdmrfT_Yp6VVCE',
       province: '河北',   
-      city: '西安'
-horoscopeDate: '8-19',
-   horoscopeDateType: '今日',
-     openUrl: 'https://wangxinleo.cn',
+      city: '西安',
+     horoscopeDate: '9-17',
+     horoscopeDateType: '今日',
+     openUrl: 'https://mp.weixin.qq.com/s?__biz=MzkwMjQwMzY0Mg==&mid=2247483682&idx=1&sn=002e49362ea8432224dd567248eb3045&chksm=c0a74277f7d0cb6192b354626eb1b374c443e112d50cf269ad437c675611e2ef3ea5e107dcd6&token=1205761133&lang=zh_CN#rd',
 
-      festivals: [],
+      festivals: [  {"type": "*生日", "name": "father", "year": "1956", "date": "08-13"},],
 
       customizedDateList: [  {"type": "*生日", "name": "自己", "year": "1992", "date": "7-20"},],
 
@@ -53,13 +53,15 @@ horoscopeDate: '8-19',
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '',
+  CALLBACK_TEMPLATE_ID: '3CnTPTwCffGfBC8nJw0C4TSGLtTuwVyhaj9Z1eMvruI',
 
   CALLBACK_USERS: [
     {
-      name: '自己',
+      name: '偷懒的小蜜蜂',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'osZhI67GIj0AsmiruHSP_-MTjJOk',
+      useTemplateId: '3CnTPTwCffGfBC8nJw0C4TSGLtTuwVyhaj9Z1eMvruI',
+
     }
   ],
 
