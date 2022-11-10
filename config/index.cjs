@@ -19,7 +19,7 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '小谭',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o9QWt58YZgHQB3RhP3H64d9lO0RE',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
@@ -40,7 +40,7 @@ const USER_CONFIG = {
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-06-015' },
+        { keyword: 'love_day', date: '2022-06-15' },
         // 结婚纪念日
      
       ],
