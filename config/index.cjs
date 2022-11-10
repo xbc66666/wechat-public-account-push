@@ -20,7 +20,7 @@ const USER_CONFIG = {
     {
       name: '小谭',
       id: 'o9QWt58YZgHQB3RhP3H64d9lO0RE',
-      useTemplateId: 'g_eFt60aBtYsDXGYqu8ao84nvYk9Jne0egqHvJQtNls	',
+      useTemplateId: 'g_eFt60aBtYsDXGYqu8ao84nvYk9Jne0egqHvJQtNls'
       province: '广东',
       city: '清远',
       horoscopeDate: '11.10',
