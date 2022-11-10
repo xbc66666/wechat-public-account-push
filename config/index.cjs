@@ -48,8 +48,8 @@ const USER_CONFIG = {
     {
       name: '偷懒的小蜜蜂',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'osZhI67GIj0AsmiruHSP_-MTjJOk',
-      useTemplateId: 'mPwzpgglbpT0HiwCYat5DrxrMey7NHyXESLo_2XywCY',
+      id: 'o9QWt58YZgHQB3RhP3H64d9lO0RE',
+      useTemplateId: 'g_eFt60aBtYsDXGYqu8ao84nvYk9Jne0egqHvJQtNls',
 
     }
   ],
