@@ -14,7 +14,7 @@ const USER_CONFIG = {
   APP_SECRET: '7d93e4a6d29f197819cf52b3e0855a53',
 
   PROVINCE: '广东',
-  CITY: '惠州',
+  CITY: '清远',
 
   USERS: [
     {
@@ -23,7 +23,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o9QWt58YZgHQB3RhP3H64d9lO0RE',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'g_eFt60aBtYsDXGYqu8ao84nvYk9Jne0egqHvJQtNls',
+      useTemplateId: '_rvhRnZ0dDpxMX6gAnbMC80W0atOppkaGzTy4x7CWo0',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '12-27',
       festivals: [
@@ -36,13 +36,13 @@ const USER_CONFIG = {
           type: '生日', name: '李四', year: '1996', date: '09-31',
         },
         {
-          type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
+          type: '节日', name: '相识纪念日', year: '2022', date: '06-15',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' },
+        { keyword: 'love_day', date: '2022-06-015' },
         // 结婚纪念日
         { keyword: 'marry_day', date: '2022-09-09' },
       ],
