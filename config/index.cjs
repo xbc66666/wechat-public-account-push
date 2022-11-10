@@ -16,29 +16,41 @@ const USER_CONFIG = {
   PROVINCE: '广东',
   CITY: '清远',
 
-  USERS: [  
+  USERS: [
     {
-      name: '小谭',
+      // 想要发送的人的名字
+      name: '老婆0',
+      // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o9QWt58YZgHQB3RhP3H64d9lO0RE',
-      useTemplateId: 'g_eFt60aBtYsDXGYqu8ao84nvYk9Jne0egqHvJQtNls'
-      province: '广东',
-      city: '清远',
-      horoscopeDate: '11.10',
+      // 你想对他发送的模板消息的模板ID
+      useTemplateId: 'g_eFt60aBtYsDXGYqu8ao84nvYk9Jne0egqHvJQtNls	',
+      // 所在省份或城市，也可以不填
+      province: '惠州',
+      // 所在城市或县区
+      city: '惠阳',
+      // 新历生日, 仅用作获取星座运势, 格式必须
+      horoscopeDate: '12-27',
+      // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
-      openUrl: 'https://mp.weixin.qq.com/s?__biz=MzkwMjQwMzY0Mg==&mid=2247483682&idx=1&sn=002e49362ea8432224dd567248eb3045&chksm=c0a74277f7d0cb6192b354626eb1b374c443e112d50cf269ad437c675611e2ef3ea5e107dcd6&token=1205761133&lang=zh_CN#rd',
-      festivals: [],
-      customizedDateList: [  {"type": "*生日", "name": "小谭", "year": "2002", "date": "3-13"},],
-      customizedDateList: [  {"type": "*生日", "name": "小聪", "year": "2002", "date": "7-02"},],
-      courseSchedule: null
-    },
-    
-
-  
-
-
-    
-
-  ],
+      // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
+      openUrl: 'https://wangxinleo.cn',
+      // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '*生日', name: '老婆', year: '1996', date: '09-09',
+        },
+        {
+          type: '节日', name: '结婚纪念日', year: '2020', date: '09-03',
+        },
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '生日', name: '李四', year: '1996', date: '09-31',
+        },
+        {
+          type: '节日', name: '被搭讪纪念日', year: '2021', date: '09-01',
+        }
+      ],
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
