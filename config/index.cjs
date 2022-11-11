@@ -25,6 +25,16 @@ const USER_CONFIG = {
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'OLyqcpJg_5_ntN7tZDeM8IYitHOzO3KE0ezYxv4cupU',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      CALLBACK_USERS: [
+    {
+      // 一般都填自己
+      name: '自己',
+      // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'o9QWt58YZgHQB3RhP3H64d9lO0RE',
+    }
+    // 你可以不断按格式往下增加
+    // ...
+  ],
       horoscopeDate: '12-27',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
